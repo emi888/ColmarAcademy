@@ -1,0 +1,320 @@
+/*global function*/
+html {
+	font-size: 12px;
+	font-family: Verdana, Sans-serif;
+	color: black; 
+}
+
+body {
+	margin: 0;
+	
+}
+
+/*header section*/
+header {
+    position: fixed;
+	width: 100%;
+	height: 4rem;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1;
+	background-color: white;
+	font-family: Verdana;
+	font-size: 15px;
+}
+
+/*logo*/
+.logo_txt {
+  display: inline-flex;
+  align-items: center;
+  padding-left: 30px;
+  color: black;
+}
+
+.logo img {
+  margin-left: 1.5rem;
+  height: 3rem;
+}
+
+/*navigation*/
+nav{
+	display: inline-block;
+	padding-right: 40px;
+}
+
+nav ul {
+  padding-left: 60px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 1rem;
+}
+
+/*links*/
+a, li {
+  display: inline-block;
+  color: #6A5ACD;
+  text-decoration: none;
+     
+}
+
+/*universal styling of h1 h2 h3 h4 h5 */
+h2 {
+  padding-top: 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/*Section 1 Banner*/
+#banner {
+  position: relative;
+  top: 4rem;
+  background-color: #D3D3D3;
+  display: flex;
+  color: white;
+  padding: 2rem 0 2rem 1.5rem;
+  width: 100%;
+}
+.container {
+  width: 60%;
+}
+.container img {
+  width: 100%;
+  padding-right: 2.5rem;
+  vertical-align: center;
+  display: inline-block;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title h1 {
+  margin: 0 0 0 2.5rem;
+  padding: 0.4rem 0;
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+.title h5 {
+  margin: 0 0 0 2.5rem;
+  padding: 0.4rem 0;
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: normal;
+}
+
+.button {
+  background-color: #A9A9A9;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-left: 2.5rem;
+}
+
+/*Section 2 Information*/
+/*background-color need to change to white before submission*/
+#information {
+  background-color: #7FFFD4;
+  padding: 4rem 0 0 1.5rem;
+  display: flex;
+  width: 100%;
+}
+
+/* .content resizing of image*/
+.content{
+	width: 65%;
+}
+
+
+.imageinfo img{
+	width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.textinfo h3{
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.textinfo p {
+  font-size: 1.20rem;
+  line-height: 1.5;
+}
+
+cite {
+  display: bottom;
+  margin-bottom: 1.5rem;
+}
+
+/*Section 3 - sidestory*/
+/*div containing all 3 side stories*/
+/*width may need to fix*/
+.sidestory{
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 1.5rem;
+}
+
+
+.sidestoryimage{
+  display: flex;
+  
+}
+
+
+/*sidestoryimage highlighted*/
+.highlighted {
+  background-color: #D3D3D3;
+  padding: 0;
+}
+
+#professor {
+  width: 35%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/*image containing all 3 side stories*/
+/*with imageinfo2 adjusting the size of image versus the image in .content*/
+.imageinfo2 {
+  width: 30%;
+  margin-top: 2rem;
+  margin-left: 1rem;
+
+}
+
+.imageinfo2 img {
+  width: 100%;
+  margin-bottom: 1rem;
+  
+}
+/*description side containing all 3 side stories*/
+.description {
+  margin: auto 0;
+  padding-left: 1rem;
+}
+
+.description h1, .description p {
+  margin-bottom: .5rem;
+}
+
+.description a {
+  color: blue;
+}
+
+/*Section 4: Start learning*/
+/*change background-color before submission*/
+
+
+.sectionheader h3{
+  	display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem 0 2rem 0;
+    background-color: yellow;
+}
+
+
+/* Section 4: subcontent Courses*/
+#listcourses{
+	
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  background-color: grey;
+  justify-content: center;
+}
+
+#courses {
+  width: 30%;
+ 
+}
+
+/* Section 4: subcontent Courses
+#imageinfo3{
+  height: 20rem;
+
+
+}
+
+#imageinfo3 img{
+  width: 100%;
+  margin-top: 2rem;
+}
+
+#courses .textinfo {
+  padding: 1rem 1rem 1rem 1rem;
+}
+*/
+
+/*Section 4: subcontent courses
+display: flex;
+    flex-flow: column wrap;
+
+    max-width: 30%;
+    margin: 0 1rem 1rem;
+
+    color: papayawhip;
+    background-color: #123;
+	
+	
+	 width: 25%;
+  background-color: #ffc10e;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: inline-flex;
+  
+*/
+
+
+
+/*Section5:*/
+
+#sectionheader {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: yellow;
+}
+
+#thesis {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  
+}
+
+video {
+  width: 100%;
+}
+
+
+.thesisfismaarticle {
+  display: flex;
+  padding: 1rem;
+  margin-left: 1rem;
+}
+.thesisfisma {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.thesisfismapic img {
+  max-height: 10rem;
+}
+
+
+/* footer */
+footer .container {
+  justify-content: space-between;
+  padding: 1rem 1.5rem 2rem 1.5rem;
+}
+
