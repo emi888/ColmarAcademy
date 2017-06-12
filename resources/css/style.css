@@ -392,10 +392,10 @@ footer nav, .desktop-nav, .logo, .practice .main-story-box,
 
 
 .mobile-nav{
-  display:block;
+  display: flex;
   justify-content: space-around;
   align-items: center;
-  width:100%;
+  width: 100%;
 }
 
  
