@@ -409,8 +409,8 @@ footer nav, .desktop-nav, .logo, .mainstory-section,.mainstory-section h6,.mains
 /* changes to the main-section area */
 
 .button{
-  width:90%;
-  align-self: center;
+  width:70%;
+  align-items: center;
 }
 
 .banner{
@@ -461,9 +461,6 @@ information .description {
     padding: 1rem 1rem .5rem 1rem;
   }
   
-
-
-
 
 /* Section 3 - mobile display on Courses */
 
