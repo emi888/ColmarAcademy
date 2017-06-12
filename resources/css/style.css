@@ -162,6 +162,40 @@ a{
   margin: 1rem 0;
 }
 
+
+@media only screen and (max-width: 900px) {
+
+.banner {
+    display: block;
+    padding: 0;
+    margin: 0;
+	width: 100%;
+}
+
+.button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    /*margin-left: 2.5rem;*/
+    width: 40%;
+    /*margin: 0 auto;*/
+  }
+
+.side-text {
+    /*border: 1px solid black;*/
+    padding: 2rem auto 2rem 1rem;
+  }
+
+.side-text h1 {
+    font-size: 2.6rem;
+  }
+
+.side-text h3 {
+    font-size: 1.25rem;
+    letter-spacing: 0.2em;
+    font-family: "Raleway";
+  }
+}
+
 /*Section 2 Main story section*/
 
 .information {
