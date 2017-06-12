@@ -100,51 +100,7 @@ a{
 #mobile-pic{
   display: none;
 }
-/*hide desktop navigation menu on small screens below 700px and show mobile navigation menu instead*/
-@media only screen and (max-width: 850px) {
 
-  header {
-    max-height: 4rem;
-  }
-  
-  .logo{
-    display: none;
-  }
-
-  .desktop-nav {
-    display: none;
-  }
-
-  .tablet {
-    display: none;
-  }
-
-  .mobile-nav {
-    width: 100%;
-    display: block;
-  }
-  .mobile-nav ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-  }
-
-  .mobile-nav li {
-    padding: 0;
-  }
-
-}
-/*hide desktop navigation and show: "Menu" instead for screens between 700px and 1024px*/
-@media only screen and (min-width: 850px) and (max-width: 1024px) {
-  .desktop {
-    display: none;
-  }
-
-  .logo {
-    display: none;
-  }
-}
 /*Section 1 Learn something new*/
 .banner{
 	position: relative;
@@ -196,54 +152,7 @@ a{
   margin: 1rem 0;
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1024px) {
-  .side-text h1 {
-    font-size: 1.5rem;
-  }
 
-  .side-text h3 {
-    font-size: 1rem;
-    font-family: "Raleway";
-  }
-
-  .button {
-    padding-top: 8px;
-    padding-bottom: 8px;
-  }
-}
-
-@media only screen and (max-width: 900px) {
-
-.banner {
-    display: block;
-    padding: 0;
-    margin: 0;
-	width: 100%;
-}
-
-.button {
-    padding-top: 8px;
-    padding-bottom: 8px;
-    /*margin-left: 2.5rem;*/
-    width: 40%;
-    /*margin: 0 auto;*/
-  }
-
-.side-text {
-    /*border: 1px solid black;*/
-    padding: 2rem auto 2rem 1rem;
-  }
-
-.side-text h1 {
-    font-size: 2.6rem;
-  }
-
-.side-text h3 {
-    font-size: 1.25rem;
-    letter-spacing: 0.2em;
-    font-family: "Raleway";
-  }
-}
 
 /*Section 2 Main story section*/
 
