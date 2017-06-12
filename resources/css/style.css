@@ -1,106 +1,185 @@
 /*global function*/
+
 html {
-	font-size: 12px;
-	font-family: Verdana, Sans-serif;
+	font-size: 16px;
+	font-family: "Verdana", Sans-serif;
 	color: black; 
 }
 
-body {
+body{
 	margin: 0;
-	
 }
 
-/*header section*/
-header {
-    position: fixed;
+main{
+  background-color: #ffffff;
+  position:relative;
+  width:100%;
+}
+
+/*universal styling h2,h4,h6 */
+h2{
+	font-size: 25px;
+	text-align: center;
+}
+
+h4{
+	font-family: Convergence;
+	font-size: 20px;
+	font-weight: bold;
+	font-weight: normal;
+}
+
+h6{
+	font-family: Convergence;
+	font-size: 20px;
+}
+
+/* header section*/
+header{
+	background-color: yellow;
+	height: 4rem; 
 	width: 100%;
-	height: 4rem;
 	justify-content: space-between;
-	align-items: center;
-	z-index: 1;
-	background-color: white;
-	font-family: Verdana;
-	font-size: 15px;
+	position: fixed;
+	display: flex; 
+	z-index: 1; 
+}
+
+/*styling text Colmar Academy*/
+.header-title{
+  font-weight: 400;
+  color: #000000;
+}
+
+header-name{
+	font-weight: 200;
+	color:#A9A9A9;
 }
 
 /*logo*/
-.logo_txt {
-  display: inline-flex;
-  align-items: center;
-  padding-left: 30px;
-  color: black;
+.logo{
+	display: flex;  
+	justify-content: space-between;
+	align-items: center;
+	
 }
 
-.logo img {
-  margin-left: 1.5rem;
-  height: 3rem;
+.logo img{
+   margin-left: 1.5rem;
+   height: 3rem; 
 }
 
+header .logo .header-name{
+	color: #FFD700 ;
+}
 /*navigation*/
 nav{
-	display: inline-block;
-	padding-right: 40px;
+  align-self: center; 
+  justify-content: space-between;
 }
 
 nav ul {
-  padding-left: 60px;
+  padding: 1rem; 
 }
 
-nav li {
-  display: inline-block;
-  padding: 1rem;
+
+.desktop-nav a{
+  padding: 0px 1rem; 
 }
 
-/*links*/
-a, li {
-  display: inline-block;
-  color: #6A5ACD;
+a{
   text-decoration: none;
-     
+  color: #A9A9A9;
 }
 
-/*universal styling of h1 h2 h3 h4 h5 */
-h2 {
-  padding-top: 2rem;
-  font-size: 2rem;
-  text-align: center;
+/*mobile display*/
+.mobile-nav{
+  display: none;
 }
 
-/*Section 1 Banner*/
-#banner {
-  position: relative;
-  top: 4rem;
-  background-color: #D3D3D3;
-  display: flex;
-  color: white;
-  padding: 2rem 0 2rem 1.5rem;
-  width: 100%;
-}
-.container {
-  width: 60%;
-}
-.container img {
-  width: 100%;
-  padding-right: 2.5rem;
-  vertical-align: center;
-  display: inline-block;
+/*hide desktop navigation and show: screens between 480px and 1024px*/
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+  header .desktop-nav {
+    display: none;
+  }
+
+  header #logo {
+    display: none;
+  }
+
+  .tablet {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+  }
 }
 
-.title {
+/*hide desktop navigation menu on small screens below 480px and show mobile navigation menu instead*/
+@media only screen and (max-width: 480px) {
+
+  header #logo {
+    display: none;
+  }
+
+  header .desktop {
+    display: none;
+  }
+
+  header .tablet {
+    display: none;
+  }
+
+  header .mobile-nav {
+    width: 100%;
+    display: block;
+  }
+  header .mobile-nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  header .mobile-nav li {
+    padding: 0;
+  }
+
+/*Section 1 Learn something new*/
+.banner{
+	position: relative;
+    top: 4rem; 
+    background-color: #D3D3D3;
+    display: flex; 
+    padding: 2rem 2.5rem 2rem 1.5rem; 
+    width: 100%;		
+}
+
+.banner img{
+    width: 60%;
+    padding-right: 2.5rem;
+    vertical-align: center;
+    display: inline-block;
+}
+
+.side-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 30%
 }
 
-.title h1 {
-  margin: 0 0 0 2.5rem;
+.side-text h1 {
+  color: white;
+  margin: 0.5rem 0; 
   padding: 0.4rem 0;
   font-size: 3rem;
   font-weight: normal;
 }
 
-.title h5 {
-  margin: 0 0 0 2.5rem;
+.side-text h3 {
+  color: white;
+  margin: 0.5rem 0; 
   padding: 0.4rem 0;
   font-size: 1.5rem;
   font-weight: normal;
@@ -109,63 +188,96 @@ h2 {
 
 .button {
   background-color: #A9A9A9;
+  color:   #00008B ;
   text-align: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  margin-left: 2.5rem;
+  padding-right: 1rem;
+  margin: 1rem 0;
 }
 
-/*Section 2 Information*/
-/*background-color need to change to white before submission*/
-#information {
-  background-color: #7FFFD4;
-  padding: 4rem 0 0 1.5rem;
-  display: flex;
+/*Section 1 - media display*/
+@media only screen and (min-width: 480px) and (max-width: 1200px) {
+  .banner {
+    width: 50%;
+  }
+
+  .side-text h1 {
+    font-size: 2rem;
+  }
+
+  .side-text h3 {
+    font-size: 1.25rem;
+  }
+
+  .button {
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    margin-left: 2rem;
+  }
+
+}
+
+/*Section 2 Main story section*/
+
+.information {
   width: 100%;
+  color: #808080;
+  padding: 2rem 0 0 0;
+  justify-content: space-around;
+  display: flex;
+  
 }
 
-/* .content resizing of image*/
-.content{
-	width: 65%;
+.multi-container{
+  width:100%;
+  display: flex;
+
+}
+  
+.mainstory-section {
+  width: 70%;
+  padding: 6rem 1.5rem; 
+ 
+}
+
+.mainstory-section img {
+  width: 100%;
+  height: auto;
+ 
+}
+
+.mainstory-section h2 {
+  font-size: 2rem;
+  padding: 1rem 0 0 0;
+}
+
+.mainstory-section p {
+  padding: 1rem 0 0 0;
+  font-family: 'Verdana', sans-serif;
+  font-size: 1rem;
+}
+
+.mainstory-section h5 {
+  font-size: 1rem;
+  padding: 5rem 0 0 0;
+  margin: 0;
 }
 
 
-.imageinfo img{
-	width: 100%;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
-.textinfo h3{
-  font-size: 2.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.textinfo p {
-  font-size: 1.20rem;
-  line-height: 1.5;
-}
-
-cite {
-  display: bottom;
-  margin-bottom: 1.5rem;
-}
-
-/*Section 3 - sidestory*/
-/*div containing all 3 side stories*/
-/*width may need to fix*/
+/*Section 2 Side story section*/
 .sidestory{
-  width: 55%;
+  width: 65%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-left: 1.5rem;
+  margin: 4rem;
+  margin-left: 0.2rem;
+  background-color: white;
 }
-
 
 .sidestoryimage{
   display: flex;
-  
 }
 
 
@@ -182,12 +294,11 @@ cite {
 }
 
 /*image containing all 3 side stories*/
-/*with imageinfo2 adjusting the size of image versus the image in .content*/
+
 .imageinfo2 {
   width: 30%;
   margin-top: 2rem;
   margin-left: 1rem;
-
 }
 
 .imageinfo2 img {
@@ -209,112 +320,204 @@ cite {
   color: blue;
 }
 
-/*Section 4: Start learning*/
-/*change background-color before submission*/
 
+#mobile-pic{
+  display:none;
+}
 
-.sectionheader h3{
-  	display: flex;
-    justify-content: center;
-    width: 100%;
-    padding: 1rem 0 2rem 0;
-    background-color: yellow;
+/*Section 2 - media display*/
+@media only screen and (min-width: 480px) and (max-width: 1400px) {
+
+  .multi-container {
+    width: 50%;
+  }
+
+  .description h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .description p {
+    font-size: 1rem;
+  }
+
+  .side-story {
+    width: 40%;
+  }
+
+  .description h1{
+    font-size: 1rem;
+  }
+
+  .description p {
+    font-size: 0.8rem;
+    line-height: 1;
+  }
 }
 
 
-/* Section 4: subcontent Courses*/
-#listcourses{
-	
-  width: 100%;
-  display: inline-flex;
-  flex-wrap: wrap;
-  background-color: grey;
+/*Section 3 Start Learning */
+
+.courses{
+  color: #808080;
+  display: flex;
   justify-content: center;
-}
-
-#courses {
-  width: 30%;
- 
-}
-
-/* Section 4: subcontent Courses
-#imageinfo3{
-  height: 20rem;
-
+  flex-flow: column;
+  align-items: center;
+  padding-top: 1rem;
+  background-color: beige;
 
 }
 
-#imageinfo3 img{
-  width: 100%;
-  margin-top: 2rem;
-}
-
-#courses .textinfo {
-  padding: 1rem 1rem 1rem 1rem;
-}
-*/
-
-/*Section 4: subcontent courses
-display: flex;
-    flex-flow: column wrap;
-
-    max-width: 30%;
-    margin: 0 1rem 1rem;
-
-    color: papayawhip;
-    background-color: #123;
-	
-	
-	 width: 25%;
-  background-color: #ffc10e;
-  flex-wrap: wrap;
+.courses-pack{
+  width:90%;
+  display:flex;
   justify-content: center;
-  display: inline-flex;
-  
-*/
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.course-container{
+  width:30%;
+  height:auto;
+  margin: 0 .5rem 2rem .5rem;
+  background-color: #ffffff;
+}
+
+.courses h2{
+  text-align: center;
+}
+
+.course-container img{
+  width:100%;
+  height: auto;
+}
+
+.course-text{
+  padding:1rem 0rem 0rem 1rem;
+  height: 190px;
+  margin: 0;
+  transition:color 600ms, background-color 600ms;
+}
+
+.course-text:hover{
+background-color: #e7e4e5;
+color:#404040;
+}
 
 
+/* Section 3 - media display*/
+@media only screen and (min-width: 480px) and (max-width: 1400px) {
+  #courses {
+    font-size: 1.5rem;
+  }
 
-/*Section5:*/
+  .courses-pack {
+    width: 25%;
+  }
 
-#sectionheader {
+  .course-container h3 {
+    font-size: 1rem;
+  }
+
+  .course-container p {
+    font-size: 1rem;
+  }
+
+  .course-text {
+    margin-top: -50px;
+  }
+
+  .course-text p {
+    font-size: 0.9rem;
+  }
+}
+
+/*Section 4 - Thesis section */
+#section4-header {
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  background-color: yellow;
 }
 
-#thesis {
+#exhibition {
   display: flex;
-  width: 50%;
-  flex-direction: column;
-  
+}
+
+.reimagine-urban {
+  width: 60%;
+  margin-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.reimagine-urban h4 {
+  font-size: 2rem;
+}
+
+.reimagine-urban p {
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 video {
   width: 100%;
 }
 
-
-.thesisfismaarticle {
+.side-article {
   display: flex;
   padding: 1rem;
   margin-left: 1rem;
 }
-.thesisfisma {
-  width: 50%;
+.fisma-newyork {
+  width: 34.1rem;
   display: flex;
   flex-direction: column;
 }
 
-.thesisfismapic img {
+.side-pic img {
   max-height: 10rem;
 }
 
+.side-text {
+  margin-left: 1rem;
+}
 
-/* footer */
-footer .container {
+@media only screen and (min-width: 480px) and (max-width: 1400px) {
+  .reimagine-urban h1 {
+    font-size: 1rem;
+  }
+
+  .reimagine-urban p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .side-text h1 {
+    font-size: 1rem;
+  }
+
+  .side-text p {
+    font-size: 0.9rem;
+  }
+
+}
+
+
+/*Footer section*/
+
+footer {
+  width: 100%;
+  height: 4rem;
+  background-color: #D3D3D3;
+  display: flex;
   justify-content: space-between;
-  padding: 1rem 1.5rem 2rem 1.5rem;
+  padding-top: 1rem;
+}
+footer span {
+  margin-left: 1.5rem;
+}
+
+footer a {
+  padding-right: 1rem;
 }
 

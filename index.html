@@ -1,288 +1,254 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="initial-scale=1.0">
-  <title>Colmar Academy</title>
-  <link href="https://fonts.googleapis.com/css?family=Convergence" rel="stylesheet">
-  <link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
-  <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
-  
-</head>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="initial-scale=1.0">
+      <title>Colmar Academy</title>
+	  <link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+      <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Convergence" rel="stylesheet">
+   </head>
 
-<body>
-
- <!-- header and navigation -->
-   <header>     
-      <div class="logo_txt">
-        <img src="./resources/images/ic-logo.svg" alt="logo" />
-        <div class="name">
-          <span>Colmar</span><span>Academy</span>
-        </div>
-      </div>
-      
-	  <nav>
-        <ul>
-          <li><a href="#">On campus</a></li>
-          <li><a href="#">Online</a></li>
-          <li><a href="#">For companies</a></li>
-          <li><a href="#">Sign in</a></li>
-        </ul>
-      </nav>
-     
-	 <nav class="mobile">
-        <ul>
-          <li>
-            <img src="./resources/images/ic-logo.svg" alt="Colmar Academy" />
-          </li>
-          <li>
-            <a href="#"><img src="./resources/images/ic-on-campus.svg" alt="On campus" /> </a>
-          </li>
-          <li>
-            <a href="#"><img src="./resources/images/ic-online.svg" alt="Online" /> </a>
-          </li>
-          <li>
-            <a href="#"><img src="./resources/images/ic-login.svg" alt="Sign in" /> </a>
-          </li>
-        </ul>
-     </nav>
-   </header>
+   <body>
    
-<!-- Section 1 Learn something new -->
-     <section id="banner">
-	      <div class="container">
-		            <img src="./resources/images/banner.jpg" alt="banner"  />
-		  </div>
-		  
-		  <div class="title">
-		     <h1>Learn something</h1>
-             <h1>new everyday</h1>
-             <br>
-             <br>
-             <h5>Lorem ipsum dolor sit amet,</h5>
-             <h5>consectetur adipiscing elit.</h5>
-             <br>
+   <!-- header and navigation -->
+      <header>
+	  
+	     <!--logo-->
+	     <div class="logo">
+	        <img src="./resources/images/ic-logo.svg" alt="logo" />
+		    <span class="header-title">COLMAR<span class="header-name">ACADEMY </span>
+		    </span>
+         </div>
+		 
+		 <!--navigation for desktop and larger screen devices, text based links-->
+		 <nav class="desktop-nav">
+		    <ul>
+		       <a href="#">On campus</a>
+               <a href="#">Online</a>
+               <a href="#">For companies</a>
+               <a href="#">Sign in</a>
+		   </ul>
+         </nav>
+		 
+		 <!--navigation display for tablet side -->
+		 
+		 <nav class="tablet">
+            <ul>
+            <li><a href="#">Menu</a></li>
+            </ul>
+         </nav>
+		 
+		 <!-- navigation for mobile devices and smaller screen devices -->
+		 <nav class="mobile-nav">
+		    <ul>
+               <li>
+                  <img src="./resources/images/ic-logo.svg" alt="Colmar Academy" />
+               </li>
+               <li>
+                  <a href="#"><img src="./resources/images/ic-on-campus.svg" alt="On campus" /> </a>
+               </li>
+               <li>
+                  <a href="#"><img src="./resources/images/ic-online.svg" alt="Online" /> </a>
+               </li>
+               <li>
+                  <a href="#"><img src="./resources/images/ic-login.svg" alt="Sign in" /> </a>
+               </li>
+            </ul>
+         </nav>
+      </header>
+	  
+  <main> <!-- all 4 sections -->
+	  <!-- Section 1 Learn something new -->
+	  
+	  <section class="banner">
+	      <img src="./resources/images/banner.jpg" alt="banner"  />
+	      <div class="side-text">
+		     <h1>Learn something new everyday</h1>
+             <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
              <a href="#" class="button">Start here</a>		
-		</div>
-		
-	 </section>
-
-<!-- Section 2 information-->
-       <section id="information">
-	        <div class="content">
-		        <div class="imageinfo">
-				     <img src="./resources/images/information-main.jpg" alt="maininformation" />
-				</div>
-				
-				<div class="textinfo">
-				     <h3>It doesn't hurt to keep practicing</h3>
-					 <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus
+		   </div>
+      </section>
+	  
+	  <!-- Section 2 Main story section -->
+      <section id="information">
+         <div class="multi-container">
+            <div class="mainstory-section"> <!--beginning of main story section-->
+               <img src="./resources/images/information-main.jpg" alt="maininformation" />
+			      <br>
+				  <br>
+			      <h6>It doesn't hurt to keep practicing</h6>
+				  <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus
 					 nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam
 					 eget magna laoreet, efficitur dolor consequat, tristique ligula"</p>
-					 <br>
-					 <br>
-					 <br>
-					 <br>
-					 <br>
-					 <cite>Emanuel, Sr Strategist at Hiring.com</cite>
-				</div>
-			</div>
-
-<!-- Section 3 this division contains 3 side stories -->
-	
-			<div class="sidestory">
+				  <h5>Emanuel, Sr. Strategist at Hiring.com</h5>
+			</div>  <!-- end of main story section -->
+			
+			<!-- Section 3 this division contains 3 side stories -->
+			<div class="sidestory"> <!--beginning of the 1st side story-->	
 			   <div class="sidestoryimage">
-			     <div class="imageinfo2">
-				      <img class="desktop" src="./resources/images/information-orientation.jpg" alt="infoorientation" />
-				 </div>
+			      <div class="imageinfo2">
+				     <img class="desktop" src="./resources/images/information-orientation.jpg" alt="infoorientation" />
+					 <img id="mobile-pic" src="./resources/images/information-orientation-mobile.jpg" alt="infoorientation">
+				  </div>
 		
-			     <div class="description">
-			        <h1>Orientation date</h1>
-                    <p>Tue 10/11 &amp; Wed 10/12: <time>8am-3pm</time></p>
-                    <a href="#">Read more</a>
-                 </div>
-			   </div>
+			      <div class="description">
+			         <h1>Orientation date</h1>
+                     <p>Tue 10/11 &amp; Wed 10/12: <time>8am-3pm</time></p>
+                     <a href="#">Read more</a>
+                  </div>
+			   </div> <!--end of the 1st side story-->	
 			   
-			   <div class="sidestoryimage">
-			     <div class="imageinfo2">
+			   <div class="sidestoryimage"> <!--beginning of the 2nd side story-->	
+			      <div class="imageinfo2">
 			         <img class="desktop" src="./resources/images/information-campus.jpg" alt="infocampus" />
-			     </div>
+					 <img id="mobile-pic" src="./resources/images/information-campus-mobile.jpg" alt="infocampus">
+			      </div>
 			
-			    <div class="description">
-			        <h1>Our campus</h1>
-                    <p>Find which campus is close to you</p>
-                    <a href="#">Read more</a>
-                 </div>
-			   </div>
+			      <div class="description">
+			         <h1>Our campus</h1>
+                     <p>Find which campus is close to you</p>
+                     <a href="#">Read more</a>
+                  </div>
+			   </div>  <!--end of the 2nd side story-->	
 			   
-			   <div class="sidestoryimage highlighted">
-			     <div id ="professor" class="imageinfo2">
-			       <img class="desktop" src="./resources/images/information-guest-lecture.jpg" alt="infoguest" />
-			     </div>
+			   <div class="sidestoryimage highlighted">  <!--beginning of the third side story-->	
+			      <div id ="professor" class="imageinfo2">
+			         <img class="desktop" src="./resources/images/information-guest-lecture.jpg" alt="infoguest" />
+					 <img id="mobile-pic" src="./resources/images/information-guest-lecture-mobile.jpg" alt="infoguest">
+			      </div>
 			 
-			     <div class="description">
-			       <h1>Our guest lecture</h1>
-                   <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-                   <a href="#">Read more</a>
-			     </div>
-			  </div>	 
-			  
-			</div>
-	  </section>
+			      <div class="description">
+			         <h1>Our guest lecture</h1>
+                      <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                      <a href="#">Read more</a>
+			      </div>
+               </div> <!--end of the third side story-->	 
+		    </div> <!-- end of sidestory-->
+         </div> <!-- end of multi-box-->	  
+      </section>
 
-<!-- Section 4 courses -->
-	   <div class="sectionheader">
-	      <h3> Start learning</h3>
-       </div>
-	   
-	   <section id="listcourses">
-	       <div class="courses">
-		        <div class="imageinfo3">
-                  <img class="desktop" src="./resources/images/course-software.jpg" alt="coursesw" />
-		        </div>
-	       
-		        <div class="textinfo3">
-		           <h4>Software engineering</h4>
-                   <h5 class="desktop">Courses</h5>
-                   <p class="desktop">Web Development, Mobile Development, iOT, APIs</p>
-		        </div>
-						
-		   </div>
-		   
-		   <div class="courses">
-		        <div class="imageinfo3">
-				   <img class="desktop" src="./resources/images/course-computer-art.jpg" alt="coursecomputer" />
-				</div>
-				
-				<div class="textinfo">
-				     <h4>Computer art</h4>
-					 <h5 class="desktop">Courses</h5>
-					 <p class="desktop">Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</p>
-				
-				</div>
-		   </div>
-	  
-	       <div class="courses">
-		        <div class="imageinfo3">
-				   <img class="desktop" src="./resources/images/course-design.jpg" alt="coursedesign" />
-				
-				</div>
-		   
-		        <div class="textinfo">
-				     <h4>Design</h4>
-					 <h5 class="desktop">Courses</h5>
-					 <p class="desktop">User Experience Design, User Research, Visual Design</p>
-				
-				</div>
-		   
-		   </div>
+<!-- Section 3 - Courses - Start Learning -->
+    
+	<section class="courses">
+        <h2>Start learning</h2>
+        <br>
+		<br>
+        <div class="courses-pack">
 
-		   <div class="courses">
-		        <div class="imageinfo3">
-				     <img class="desktop" src="./resources/images/course-data.jpg" alt="coursedata" />
-				</div>
-				
-				<div class="textinfo">
-				     <h4>Data</h4>
-					 <h5 class="desktop">Courses</h5>
-					 <p class="desktop">Data Science, Big Data, SQL, Data Visualization</p>
-				
-				</div>
-		   </div>
-
-		   <div class="courses">
-		        <div class="imageinfo3">
-				     <img class="desktop" src="./resources/images/course-business.jpg" alt="coursebusiness" />
-				
-				</div>
-			
-		        <div class="textinfo">
-				     <h4>Business</h4>
-					 <h5 class="desktop">Courses</h5>
-					 <p class="desktop">Product Development, Business Development, Startup</p>
-				</div>
-		   </div>
-		   
-		   <div class="courses">
-		        <div class="imageinfo3">
-				     <img class="desktop" src="./resources/images/course-marketing.jpg" alt="" />
-				
-				</div>
-				
-				<div class="textinfo">
-				    <h4>Marketing</h4>
-					<h5 class="desktop">Courses</h5>
-					<p class="desktop">Analytics, Content Marketing, Mobile Marketing</p>
-				
-				</div>
-		   
-		   </div>
-		   
-		   
-	  </section>
-
-<!-- Section 5 Thesis section -->
-	 <div class="sectionheader">
-        <h2>Thesis exhibits</h2>
-	 </div>
-     <section id="thesis">
-        
-           <div class="reimagineurban">
-			  <video controls>
-                 <source src="./resources/videos/thesis.mp4">
-                   Video streaming not supported.
-                 <a href="./resources/videos/thesis.mp4">Download the video "Reimagine Urban"</a>
-              </video>
-           </div>
-           <div class="textinfo">
-               <h3>Reimagine urban</h3>
-               <p>"Curabitur vitae libero in ipsum porttior consequat. Aliqum et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat es. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligule."
-               </p>
-          </div>
-           
-		  <div class="thesisfisma">
-               <div class="thesisfismaarticlehighlight">
-                  <div class="thesisfismapic">
-             
-                     <img src="./resources/images/thesis-fisma.jpg" alt="" />
-                  </div>
-                  <div class="textinfo">
-                    <h4>Fisma: Design and</h4>
-                    <p>Designer showcase of new prototype product</p>
-                  </div>
-			
-		      <div class="thesisfismaarticle">
-                  <div class="thesisfismapic">
-                     <img src="./resources/images/thesis-now-and-then.jpg" alt="" />
-                  </div>
-                  
-				  <div class="textinfo">
-                     <h4>Now and then</h4>
-                     <p>Research study about new York</p>
-                  </div>
-          
+            <!-- Software Engineering -->
+            <div class="course-container">
+              <img src="./resources/images/course-software.jpg" alt="computer desk station with monitors">
+              <div class="course-text">
+                <h3>Software engineering</h3>
+                <p>COURSES</p>
+                <p>Web Development, Mobile Development, iOT, APIs</p>
               </div>
+            </div>
+            <!-- Computer art -->
+            <div class="course-container">
+              <img src="./resources/images/course-computer-art.jpg" alt="mobile phone">
+              <div class="course-text">
+                <h3>Computer art</h3>
+                <p>COURSES</p>
+                <p>Imaging &amp; Design, Web Design, Motion Graphics&amp;Visual Effects, Computer Animation</p>
+              </div>
+            </div>
+            <!-- Design -->
+            <div class="course-container">
+              <img src="./resources/images/course-design.jpg" alt="a person using an old-fashioned photo camera">
+              <div class="course-text">
+                <h3>Design</h3>
+                <p>COURSES</p>
+                <p>User Experience Design, User Research, Visual Design</p>
+              </div>
+            </div>
+            <!-- Data -->
+            <div class="course-container">
+              <img src="./resources/images/course-data.jpg" alt="computer screen with graphs and data">
+              <div class="course-text">
+                <h3>Data</h3>
+                <p>COURSES</p>
+                <p>Data Science, Big Data, SQL, Data Visualization</p>
+              </div>
+            </div>
+            <!-- Business-->
+            <div class="course-container">
+              <img src="./resources/images/course-business.jpg" alt="table chess">
+              <div class="course-text">
+                <h3>Business</h3>
+                <p>COURSES</p>
+                <p>Product Development, Business Development, Startup</p>
+              </div>
+            </div>
+            <!-- Marketing-->
+            <div class="course-container">
+              <img src="./resources/images/course-marketing.jpg" alt="a person using a smart watch">
+              <div class="course-text">
+                <h3>Marketing</h3>
+                <p>COURSES</p>
+                <p>Analytics, Content Marketing, Mobile Marketing</p>
+              </div>
+            </div>
+
+        </div>
+      </section>
+      <br>
+	  <br>
+	  <h2>Thesis Exhibits</h2>
+	  <br>
+	  <br>
+     
+    <section id="exhibition">
+	   
+      <div class="reimagine-urban">
+        <video controls>
+          <source src="./resources/videos/thesis.mp4" type="video/mp4">
+        </video>
+		<br>
+		<br>
+        <h4>Reimagine urban</h4>
+        <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec
+        consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget
+        magna laoreet, efficitur dolor consequat, tristique ligula"</p>
+      </div>
+      <div class="fisma-newyork">
+        <div class="side-article highlighted">
+          <div class="side-pic">
+            <img src="./resources/images/thesis-fisma.jpg" alt="">
           </div>
+          <div class="side-text">
+            <h4>Fisma: Design and</h4>
+            <p>Designer showcase of new</p>
+            <p>prototype product</p>
+          </div>
+        </div> <!--end of fisma div-->
+        <div class="side-article">
+          <div class="side-pic">
+            <img src="./resources/images/thesis-now-and-then.jpg" alt="">
+          </div>
+          <div class="side-text">
+            <h4>Now and then</h4>
+            <p>Research study about New York</p>
+          </div>
+        </div> <!--end of New York div-->
+      </div> <!--end of fisma-newyork div-->
     </section>
-  
-  <footer>
-    <div class="container">
-      <span>&copy; 2016 Colmar Academy. All rights reserved</span>
-	  
-	  
-	  
-      <nav class="desktop">
-        <ul>
-		
-          <li><a href="">Terms</a></li>
-          <li><a href="">Privacy</a></li>
-        </ul>
-      </nav>
-    </div>
-  </footer>
 
-
-</body>
-
-
+  </main> 
+ 
+     <footer>
+      <span>&copy; 2017 Colmar Academy. All rights reserved</span>
+      <div class="social">
+        <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+        <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+        <a href="#"><i class=" fa fa-pinterest fa-lg"></i></a>
+		<a href=#>Terms</a>
+		 <a href=#>Privacy</a>
+      </div>
+      
+    </footer>
+	
+  </body>
 </html>
