@@ -381,8 +381,8 @@ footer a {
 
 /* below elements that will be turn off from the desktop version of the site */
 footer nav, .desktop-nav, .logo, .mainstory-section,.mainstory-section h6,.mainstory-section h5, .mainstory-section p, .mainstory-section img,
-.exhibition, .side-text, .exhibition p, .exhibition h4, .course-container img,
-.course-container p, .desktop{
+.exhibition, .exhibition p, .exhibition h4, side-text, .exhibition img, .course-container img,
+.course-container p, .desktop, .social{
   display:none;
 }
 
