@@ -258,9 +258,6 @@ a{
   color: blue;
 }
 
-
-
-
 /*Section 3 Start Learning */
 
 .courses{
@@ -393,6 +390,7 @@ footer nav, .desktop-nav, .logo, .practice .main-story-box,
 .mobile-nav{
   display:flex;
   justify-content: space-around;
+  align-items: center;
   width:100%;
 }
 
@@ -404,7 +402,7 @@ footer nav, .desktop-nav, .logo, .practice .main-story-box,
   align-self: center;
 }
 
-.main-section{
+.banner{
   width:100%;
   height:auto;
   display:flex;
@@ -419,7 +417,7 @@ footer nav, .desktop-nav, .logo, .practice .main-story-box,
   height:auto;
 }
 
-.main-section img{
+.banner img{
   width: 100%;
   height: auto;
   padding:0;
@@ -429,8 +427,8 @@ footer nav, .desktop-nav, .logo, .practice .main-story-box,
 }
 
 
-/* changes to the practice area - second section */
-.side-stories{
+/* Section 2 */
+.multi-container{
   width:100%;
   display: flex;
   flex-flow: column;
@@ -439,7 +437,7 @@ footer nav, .desktop-nav, .logo, .practice .main-story-box,
   margin-top: 1rem;
 }
 
-.story-box #mobile-pic{
+.imageinfo2 #mobile-pic{
   width:100%;
   height: auto;
   display:flex;
@@ -448,7 +446,7 @@ footer nav, .desktop-nav, .logo, .practice .main-story-box,
   padding: 1rem 1rem .5rem 1rem;
 }
 
-.practice .description-side{
+.information .description{
   display:flex;
   flex-direction: column;
   justify-content: center;
@@ -458,7 +456,7 @@ footer nav, .desktop-nav, .logo, .practice .main-story-box,
   height: auto;
 }
 
-.story-box{
+.imageinfo2{
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -466,7 +464,7 @@ footer nav, .desktop-nav, .logo, .practice .main-story-box,
   width: 100%;
   height: auto;
 }
-.practice .story-box:last-child{
+.information .imageinfo2:last-child{
   background-color: #ffffff;
   color:#808080;
   margin-bottom: 32px;
