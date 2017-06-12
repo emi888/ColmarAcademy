@@ -387,14 +387,29 @@ footer nav, .desktop-nav, .logo, .practice .main-story-box,
 }
 
 /* menu bar in mobile version changes into icons */
+
+.mobile-nav{
+	width: 100%;
+	display: block;
+}
+
+/*
 .mobile-nav{
   display:flex;
   justify-content: space-around;
   align-items: center;
   width:100%;
 }
+*/
+ 
+.mobile ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
 
-
+ 
 /* changes to the main-section area */
 
 .button{
