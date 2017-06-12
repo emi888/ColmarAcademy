@@ -162,6 +162,21 @@ a{
   margin: 1rem 0;
 }
 
+@media only screen and (min-width: 900px) and (max-width: 1024px) {
+  .side-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .side-text h3 {
+    font-size: 1rem;
+    font-family: "Raleway";
+  }
+
+  .button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
 
 @media only screen and (max-width: 900px) {
 
