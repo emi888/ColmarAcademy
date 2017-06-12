@@ -101,51 +101,7 @@ a{
   display: none;
 }
 
-/*hide desktop navigation and show: "Menu" instead for screens between 700px and 1024px*/
-@media only screen and (min-width: 850px) and (max-width: 1024px) {
-  .desktop-nav {
-    display: none;
-  }
 
- .logo {
-    display: none;
-  }
-
-}
-
-
-/*hide desktop navigation menu on small screens below 700px and show mobile navigation menu instead*/
-@media only screen and (max-width: 850px) {
-
-  header {
-    max-height: 4rem;
-  }
- .logo {
-    display: none;
-  }
-
-  .desktop-nav {
-    display: none;
-  }
-
-  
-
-  .mobile-nav {
-    width: 100%;
-    display: block;
-  }
-  .mobile-nav ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-  }
-
-  .mobile-nav li {
-    padding: 0;
-  }
-
-}
 
 /*Section 1 Learn something new*/
 .banner{
@@ -303,9 +259,7 @@ a{
 }
 
 
-#mobile-pic{
-  display:none;
-}
+
 
 /*Section 3 Start Learning */
 
@@ -425,3 +379,159 @@ footer a {
   padding-right: 1rem;
 }
 
+/* Mobile devices*/
+@media only screen and (max-width:625px) {
+
+/* below elements that will be turn off from the desktop version of the site */
+footer nav, .desktop-nav, .logo, .practice .main-story-box,
+.thesis .side-stories, .thesis p, .thesis h3, .course-container img,
+.course-container p, #desktop-pic{
+  display:none;
+}
+
+/* menu bar in mobile version changes into icons */
+.mobile-nav{
+  display:flex;
+  justify-content: space-around;
+  width:100%;
+}
+
+
+/* changes to the main-section area */
+
+.button{
+  width:90%;
+  align-self: center;
+}
+
+.main-section{
+  width:100%;
+  height:auto;
+  display:flex;
+  flex-flow: column;
+  justify-content: center;
+  background-color: #e7e4e5;
+  align-items: center;
+}
+
+.side-text{
+  width:90%;
+  height:auto;
+}
+
+.main-section img{
+  width: 100%;
+  height: auto;
+  padding:0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* changes to the practice area - second section */
+.side-stories{
+  width:100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.story-box #mobile-pic{
+  width:100%;
+  height: auto;
+  display:flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 1rem 1rem .5rem 1rem;
+}
+
+.practice .description-side{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 4rem;
+  width: 100%;
+  height: auto;
+}
+
+.story-box{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+.practice .story-box:last-child{
+  background-color: #ffffff;
+  color:#808080;
+  margin-bottom: 32px;
+}
+
+
+
+
+/* changes to the courses area - third section */
+
+.courses-pack{
+  flex-flow: column;
+}
+
+.course-container{
+  width:100%;
+  height:auto;
+  padding:0;
+  margin:0 0 8px 0;
+}
+
+.course-text{
+  width: 93%;
+  height: auto;
+  padding:16px;
+  color: #909090;
+  transition:font-weight 200ms, color 600ms, background-color 600ms;
+}
+
+.course-text:hover{
+background-color: #D3D3D3;
+color:#303030;
+font-weight: bold;
+}
+
+.course-container h3{
+  display:none;
+}
+
+.courses h2{
+  padding: 2rem 0 1rem 0;
+  margin: 0;
+}
+.course-container a{
+  display:block;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  padding:0;
+  border: 0;
+  margin 0;
+  width: 100%;
+}
+
+
+/* changes to thesis section. Detail boxes are removed.*/
+.thesis .main-story-box{
+  width:100%;
+  padding: 0 0 32px 0;
+}
+
+video{
+  margin:auto;
+}
+
+/* footer changes */
+h5{
+  margin:2rem 0 1rem 0;
+}
