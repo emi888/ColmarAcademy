@@ -388,19 +388,16 @@ footer nav, .desktop-nav, .logo, .practice .main-story-box,
 
 /* menu bar in mobile version changes into icons */
 
-.mobile-nav{
-	width: 100%;
-	display: block;
-}
 
-/*
+
+
 .mobile-nav{
-  display:flex;
+  display:block;
   justify-content: space-around;
   align-items: center;
   width:100%;
 }
-*/
+
  
 .mobile-nav ul {
     display: flex;
