@@ -382,7 +382,7 @@ footer a {
 /* below elements that will be turn off from the desktop version of the site */
 footer nav, .desktop-nav, .logo, .mainstory-section, .mainstory-section img,
 .thesis .side-stories, .thesis p, .thesis h3, .course-container img,
-.course-container p, #desktop-pic{
+.course-container p, #desktop{
   display:none;
 }
 
@@ -475,11 +475,7 @@ footer nav, .desktop-nav, .logo, .mainstory-section, .mainstory-section img,
   width: 100%;
   height: auto;
 }
-.information .imageinfo2:last-child{
-  background-color: #ffffff;
-  color:#808080;
-  margin-bottom: 32px;
-}
+
 
 
 
