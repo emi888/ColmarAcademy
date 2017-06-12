@@ -447,7 +447,8 @@ footer nav, .desktop-nav, .logo, .mainstory-section,.mainstory-section h6,.mains
     display: block;
   }
 
- #mobile-pic {
+ 
+.sidestoryimage #mobile-pic {
     display: flex;
     width: 95%;
 	flex-direction: column;
@@ -455,18 +456,30 @@ footer nav, .desktop-nav, .logo, .mainstory-section,.mainstory-section h6,.mains
     padding: 1rem 1rem .5rem 1rem;
   }
 
-  .imageinfo2 img {
+/*
+  .sidestoryimage img {
     width: 100%;
+	display: flex;
+	flex-direction: column;
+    box-sizing: border-box;
+    padding: 1rem 1rem .5rem 1rem;
  }
+*/
 
   .description {
     display: block;
     margin-bottom: 1rem;
   }
 
+ 
   .sidestoryimage highlighted {
-    display: none;
+     display: flex;
+    width: 95%;
+	flex-direction: column;
+    box-sizing: border-box;
+    padding: 1rem 1rem .5rem 1rem;
   }
+  
 
 
 
