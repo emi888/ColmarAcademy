@@ -380,8 +380,8 @@ footer a {
 @media only screen and (max-width:625px) {
 
 /* below elements that will be turn off from the desktop version of the site */
-footer nav, .desktop-nav, .logo, .mainstory-section, .mainstory-section img,
-.exhibition .side-text, .exhibition p, .exhibition h4, .course-container img,
+footer nav, .desktop-nav, .logo, .mainstory-section,.mainstory-section h6, .mainstory-section p, .mainstory-section img,
+.exhibition, .side-text, .exhibition p, .exhibition h4, .course-container img,
 .course-container p, .desktop{
   display:none;
 }
