@@ -439,34 +439,10 @@ footer nav, .desktop-nav, .logo, .mainstory-section,.mainstory-section h6,.mains
 
 
 /* Section 2 - mobile display on side stories */
- .multi-container {
-   width:100%;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1rem;
-  }
-
-.sidestoryimage{
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: auto;
-
-.sidestoryimage #mobile-pic{
-  width:100%;
-  height: auto;
-  display:flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  padding: 1rem 1rem .5rem 1rem;
-}
 
 
-.information .description {
+
+information .description {
    display:flex;
   flex-direction: column;
   justify-content: center;
