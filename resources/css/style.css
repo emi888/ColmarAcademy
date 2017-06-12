@@ -101,6 +101,39 @@ a{
   display: none;
 }
 
+/*hide desktop navigation menu on small screens below 700px and show mobile navigation menu instead*/
+@media only screen and (max-width: 850px) {
+
+  header {
+    max-height: 4rem;
+  }
+  .logo {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  .tablet {
+    display: none;
+  }
+
+  .mobile-nav {
+    width: 100%;
+    display: block;
+  }
+  .mobile-nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .mobile-nav li {
+    padding: 0;
+  }
+  
 /*Section 1 Learn something new*/
 .banner{
 	position: relative;
