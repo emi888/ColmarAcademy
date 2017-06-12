@@ -111,12 +111,6 @@ a{
     display: none;
   }
 
-  .tablet {
-    display: block;
-    width: 100%;
-    text-align: center;
-    font-size: 1.5rem;
-  }
 }
 
 
@@ -134,9 +128,7 @@ a{
     display: none;
   }
 
-  .tablet {
-    display: none;
-  }
+  
 
   .mobile-nav {
     width: 100%;
