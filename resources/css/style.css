@@ -256,6 +256,10 @@ a{
   display:none;
 }
 
+sidestoryimage .mobile-pic{
+	display: none;
+}
+
 /*hide desktop navigation and show: "Menu" instead for screens between 700px and 1024px*/
 @media only screen and (min-width: 850px) and (max-width: 1024px) {
 .desktop-nav {
