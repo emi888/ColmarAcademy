@@ -16,7 +16,7 @@ main{
   width:100%;
 }
 
-/*universal styling h2,h4,h6 */
+/*universal styling h1, h2, h3, h4, h5, h6 */
 h2{
 	font-size: 25px;
 	text-align: center;
@@ -97,54 +97,6 @@ a{
   display: none;
 }
 
-/*hide desktop navigation and show: screens between 480px and 1024px*/
-@media only screen and (min-width: 480px) and (max-width: 1024px) {
-  header .desktop-nav {
-    display: none;
-  }
-
-  header #logo {
-    display: none;
-  }
-
-  .tablet {
-    display: block;
-    width: 100%;
-    text-align: center;
-    font-size: 1.5rem;
-  }
-}
-
-/*hide desktop navigation menu on small screens below 480px and show mobile navigation menu instead*/
-@media only screen and (max-width: 480px) {
-
-  header #logo {
-    display: none;
-  }
-
-  header .desktop {
-    display: none;
-  }
-
-  header .tablet {
-    display: none;
-  }
-
-  header .mobile-nav {
-    width: 100%;
-    display: block;
-  }
-  header .mobile-nav ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-  }
-
-  header .mobile-nav li {
-    padding: 0;
-  }
-
 /*Section 1 Learn something new*/
 .banner{
 	position: relative;
@@ -194,28 +146,6 @@ a{
   padding-bottom: 1rem;
   padding-right: 1rem;
   margin: 1rem 0;
-}
-
-/*Section 1 - media display*/
-@media only screen and (min-width: 480px) and (max-width: 1200px) {
-  .banner {
-    width: 50%;
-  }
-
-  .side-text h1 {
-    font-size: 2rem;
-  }
-
-  .side-text h3 {
-    font-size: 1.25rem;
-  }
-
-  .button {
-    padding-top: 0.7rem;
-    padding-bottom: 0.7rem;
-    margin-left: 2rem;
-  }
-
 }
 
 /*Section 2 Main story section*/
@@ -321,40 +251,21 @@ a{
 }
 
 
+/*mobile display*/
 #mobile-pic{
   display:none;
 }
 
-/*Section 2 - media display*/
-@media only screen and (min-width: 480px) and (max-width: 1400px) {
-
-  .multi-container {
-    width: 50%;
+/*hide desktop navigation and show: "Menu" instead for screens between 700px and 1024px*/
+@media only screen and (min-width: 850px) and (max-width: 1024px) {
+  .desktop-nav {
+    display: none;
   }
 
-  .description h1 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-  }
-
-  .description p {
-    font-size: 1rem;
-  }
-
-  .side-story {
-    width: 40%;
-  }
-
-  .description h1{
-    font-size: 1rem;
-  }
-
-  .description p {
-    font-size: 0.8rem;
-    line-height: 1;
+  #logo {
+    display: none;
   }
 }
-
 
 /*Section 3 Start Learning */
 
@@ -403,34 +314,6 @@ a{
 .course-text:hover{
 background-color: #e7e4e5;
 color:#404040;
-}
-
-
-/* Section 3 - media display*/
-@media only screen and (min-width: 480px) and (max-width: 1400px) {
-  #courses {
-    font-size: 1.5rem;
-  }
-
-  .courses-pack {
-    width: 25%;
-  }
-
-  .course-container h3 {
-    font-size: 1rem;
-  }
-
-  .course-container p {
-    font-size: 1rem;
-  }
-
-  .course-text {
-    margin-top: -50px;
-  }
-
-  .course-text p {
-    font-size: 0.9rem;
-  }
 }
 
 /*Section 4 - Thesis section */
@@ -482,25 +365,6 @@ video {
   margin-left: 1rem;
 }
 
-@media only screen and (min-width: 480px) and (max-width: 1400px) {
-  .reimagine-urban h1 {
-    font-size: 1rem;
-  }
-
-  .reimagine-urban p {
-    font-size: 1rem;
-    line-height: 1.5;
-  }
-
-  .side-text h1 {
-    font-size: 1rem;
-  }
-
-  .side-text p {
-    font-size: 0.9rem;
-  }
-
-}
 
 
 /*Footer section*/
