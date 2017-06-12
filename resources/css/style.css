@@ -402,13 +402,16 @@ footer nav, .desktop-nav, .logo, .practice .main-story-box,
 }
 */
  
-.mobile ul {
+.mobile-nav ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
   }
 
+.mobile-nav li {
+    padding: 0;
+  }
  
 /* changes to the main-section area */
 
