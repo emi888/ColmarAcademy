@@ -449,12 +449,12 @@ footer nav, .desktop-nav, .logo, .mainstory-section,.mainstory-section h6,.mains
     display: block;
   }
 
-/*  
+  
  #mobile-pic {
-    display: block;
+    display: flex;
     width: 95%;
   }
-  */
+
 
 #mobile-pic img {
     width: 100%;
