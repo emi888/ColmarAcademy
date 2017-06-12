@@ -101,6 +101,60 @@ a{
   display: none;
 }
 
+/*hide desktop navigation and show: "Menu" instead for screens between 700px and 1024px*/
+@media only screen and (min-width: 850px) and (max-width: 1024px) {
+  .desktop-nav {
+    display: none;
+  }
+
+ .logo {
+    display: none;
+  }
+
+  .tablet {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+}
+
+
+/*hide desktop navigation menu on small screens below 700px and show mobile navigation menu instead*/
+@media only screen and (max-width: 850px) {
+
+  header {
+    max-height: 4rem;
+  }
+ .logo {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  .tablet {
+    display: none;
+  }
+
+  .mobile-nav {
+    width: 100%;
+    display: block;
+  }
+  .mobile-nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .mobile-nav li {
+    padding: 0;
+  }
+
+}
+
 /*Section 1 Learn something new*/
 .banner{
 	position: relative;
