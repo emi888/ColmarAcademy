@@ -459,7 +459,7 @@ footer a {
   }
 
 .highlighted {
-	display: none;
+	background-color: none
 }
 /*
 #professor #mobile-pic{
