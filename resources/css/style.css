@@ -380,9 +380,9 @@ footer a {
 @media only screen and (max-width:625px) {
 
 /* below elements that will be turn off from the desktop version of the site */
-footer nav, .desktop-nav, .logo, .mainstory-section,.mainstory-section h6,.mainstory-section h5, .mainstory-section p, .mainstory-section img,
+.desktop-nav, .logo, .mainstory-section,.mainstory-section h6,.mainstory-section h5, .mainstory-section p, .mainstory-section img,
 .exhibition, .reimagine-urban p, .reimagine-urban h4, .reimagine-urban img,.fisma-newyork, .side-article, .side-text, .side-pic, .course-container img,
-.course-container p, .desktop, .social{
+.course-container p, .sidestoryimage desktop, .social{
   display:none;
 }
 
@@ -441,8 +441,12 @@ footer nav, .desktop-nav, .logo, .mainstory-section,.mainstory-section h6,.mains
 /* Section 2 - mobile display on side stories */
 @media only screen and (max-width: 450px) {
 .multi-container {
-    padding: 1rem 1rem 2rem 1rem;
-    margin: 0;
+   width:100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
   }
 
  #mobile-pic {
@@ -459,7 +463,7 @@ footer nav, .desktop-nav, .logo, .mainstory-section,.mainstory-section h6,.mains
 	
   }
 
-#professor{
+#professor #mobile-pic{
 	display: block;
 	width: 100%;
 }
