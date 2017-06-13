@@ -449,7 +449,7 @@ footer a {
 
 /* Section 2 - mobile display on side stories */
 
-/*
+
 @media only screen and (max-width: 625px) {
  .sidestory {
     padding: 1rem 1rem 2rem 1rem;
@@ -480,7 +480,8 @@ footer a {
   .sidestoryimage highlighted {
     display: none;
   }
-*/
+
+/*
 @media only screen and (max-width: 625px) {
 .sidestory{
   width:100%;
@@ -524,7 +525,7 @@ footer a {
 }
 
 
-
+*/
 
 
 /* Section 3 - mobile display on Courses */
