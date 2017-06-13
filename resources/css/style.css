@@ -441,12 +441,8 @@ footer nav, .desktop-nav, .logo, .mainstory-section,.mainstory-section h6,.mains
 /* Section 2 - mobile display on side stories */
 @media only screen and (max-width: 450px) {
 .multi-container {
-   width:100%;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1rem;
+    padding: 1rem 1rem 2rem 1rem;
+    margin: 0;
   }
 
  #mobile-pic {
