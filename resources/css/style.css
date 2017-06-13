@@ -459,6 +459,7 @@ footer a {
   .sidestoryimage {
     display: block;
 	height: auto;
+	margin-top: 2rem;
   }
 
   .desktop {
