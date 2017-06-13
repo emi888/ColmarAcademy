@@ -452,7 +452,7 @@ footer a {
 
 @media only screen and (max-width: 625px) {
  .sidestory {
-    padding: 5rem 5rem 5rem 5rem;
+    padding: 1rem 1rem 2rem 1rem;
     margin: 0;
   }
   .sidestoryimage {
@@ -466,6 +466,7 @@ footer a {
   #mobile-pic {
     display: block;
     width: 95%;
+	height: 5rem;
   }
 
   #mobile-pic img {
