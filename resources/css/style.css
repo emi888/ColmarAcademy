@@ -495,6 +495,7 @@ footer a {
   width:100%;
   height: auto;
   display:flex;
+  margin: 3rem;
   flex-direction: column;
   box-sizing: border-box;
   padding: 1rem 1rem .5rem 1rem;
@@ -520,11 +521,7 @@ footer a {
 }
 
 
-.information .sidestoryimage:last-child{
-  background-color: #ffffff;
-  color:#808080;
-  margin-bottom: 32px;
-}
+
 
 
 /* Section 3 - mobile display on Courses */
