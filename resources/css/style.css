@@ -481,7 +481,7 @@ footer a {
     display: none;
   }
 */
-
+@media only screen and (max-width: 625px) {
 .sidestory{
   width:100%;
   display: flex;
@@ -495,7 +495,7 @@ footer a {
   width:100%;
   height: auto;
   display:flex;
-  margin: 3rem;
+
   flex-direction: column;
   box-sizing: border-box;
   padding: 1rem 1rem .5rem 1rem;
@@ -516,6 +516,7 @@ footer a {
   flex-flow: column;
   justify-content: center;
   align-items: center;
+  margin: 3rem;
   width: 100%;
   height: auto;
 }
