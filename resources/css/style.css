@@ -469,6 +469,7 @@ footer a {
   #mobile-pic {
     display: block;
     width: 250%;
+	align-items: center;
     
   }
 
