@@ -468,7 +468,7 @@ footer a {
 
   #mobile-pic {
     display: block;
-    width: 95%;
+    width: 35%;
     
   }
 
@@ -485,83 +485,6 @@ footer a {
   .sidestoryimage highlighted {
     display: none;
   }
-
-/*
-@media only screen and (max-width: 625px) {
-.sidestory{
-  width:100%;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 3rem;
-  padding: 1rem 1rem 2rem 1rem;
-  margin: 0;
-}
-
-.sidestoryimage #mobile-pic{
-  width:100%;
-  height: auto;
-  display:flex;
-
-  flex-direction: column;
-  box-sizing: border-box;
-  padding: 1rem 1rem .5rem 1rem;
-}
-
-.information .description{
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding-left: 4rem;
-  width: 100%;
-  height: auto;
-}
-
-.imageinfo2{
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  
-  width: 100%;
-  height: auto;
-}
-
-  .emanuel {
-    display: none;
-  }
-
-  .side-stories {
-    padding: 1rem 1rem 2rem 1rem;
-    margin: 0;
-  }
-  .small-art {
-    display: block;
-  }
-
-  .pic {
-    display: none;
-  }
-
-  .pic-mobile {
-    display: block;
-    width: 95%;
-  }
-
-  .pic-mobile img {
-    width: 100%;
-  }
-
-  .description-side {
-    display: block;
-    margin-bottom: 1rem;
-  }
-
- 
-
-*/
 
 
 /* Section 3 - mobile display on Courses */
