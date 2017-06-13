@@ -481,14 +481,14 @@ footer a {
     display: none;
   }
 */
-@media only screen and (max-width: 625px) {
+@media only screen and (max-width: 450px) {
 .sidestory{
   width:100%;
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 
 .sidestoryimage #mobile-pic{
@@ -516,7 +516,7 @@ footer a {
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  margin: 3rem;
+  
   width: 100%;
   height: auto;
 }
