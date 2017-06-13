@@ -382,7 +382,7 @@ footer a {
 /* below elements that will be turn off from the desktop version of the site */
 .desktop-nav, .logo, .mainstory-section,.mainstory-section h6,.mainstory-section h5, .mainstory-section p, .mainstory-section img,
 .exhibition, .reimagine-urban p, .reimagine-urban h4, .reimagine-urban img,.fisma-newyork, .side-article, .side-text, .side-pic, .course-container img,
-.course-container p, .imageinfo2 desktop,.sidestoryimage desktop,.sidestory desktop,.desktop, .social{
+.course-container p, .desktop, .social{
   display:none;
 }
 
@@ -458,6 +458,9 @@ footer a {
      padding: 1rem 1rem .5rem 1rem;
   }
 
+.highlighted {
+	display: none;
+}
 /*
 #professor #mobile-pic{
 	display: block;
